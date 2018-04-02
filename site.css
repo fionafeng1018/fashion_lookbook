@@ -1,0 +1,75 @@
+/* CSS Document */
+body{
+	
+}
+.img-rounded{
+	width: 100%;
+}
+
+.page_title{
+	text-align: center;
+	
+}
+
+/* nav bar custom*/
+.navbar-default{
+	background-color:#FFFFFF;
+	border: none;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size:16px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color:#B21315;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+/* End nav bar custom*/
+
+.img-circle{
+	width: 100%;
+	height: 100%;
+}
+
+video{
+	width: 100%;
+}
+
+#page_title{
+	font-size: 10em;
+	font-family:'abril-fatface';
+	font-weight: 10;
+	
+}
+
+.title_image{
+	width: 100%;
+	height: 800px;
+	background-image:url(images/首页图片2.png);
+}
+
+.main_description{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.mainpage_desc{
+	font-size:24px;
+}
+
+.copyright{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.padding{
+	padding-top: 50px;
+}
