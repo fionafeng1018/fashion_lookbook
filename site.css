@@ -15,7 +15,7 @@ body{
 .navbar-default{
 	background-color:#FFFFFF;
 	border: none;
-	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-family:"poiret-one";
 	font-size:16px;
 }
 
@@ -33,6 +33,15 @@ body{
 }
 /* End nav bar custom*/
 
+a{
+	font-family: "poiret-one";
+	color:#000000;
+}
+a:hover,
+a:focus{
+	color:#B21315;
+	text-decoration: none;
+}
 .img-circle{
 	width: 100%;
 	height: 100%;
@@ -55,13 +64,10 @@ video{
 	background-image:url(images/首页图片2.png);
 }
 
-.main_description{
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
 .mainpage_desc{
-	font-size:24px;
+	font-size:20px;
+	font-family: 'poiret-one';
+	text-align: center;
 }
 
 .copyright{
@@ -71,5 +77,17 @@ video{
 }
 
 .padding{
-	padding-top: 50px;
+	padding-top: 20px;
+}
+
+.row{
+	padding-top: 20px;
+}
+
+.btn{
+	font-family: 'poiret-one';
+}
+.under_image_link{
+	font-size: 20px;
+	padding-top: 20px;
 }
