@@ -99,7 +99,7 @@ video{
 }
 
 .shape_image{
-	height: 503px;
+	height: 620px;
 	width: 282px;
 }  
 
@@ -118,7 +118,11 @@ h2{
 
 .dress_desc{
 	opacity: 0.8;
-	height: 350px;
+	height: 250px;
 	width: 50%;
-	padding: 50px;
+	padding: 30px;
+}
+
+hr{
+	border-width: medium;
 }
