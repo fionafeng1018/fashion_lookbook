@@ -10,6 +10,56 @@ body{
 	text-align: center;
 	
 }
+/*Form css*/
+form { max-width:400px; margin:30px auto; }
+
+.feedback-input {
+  color:black;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+  font-weight:100;
+  font-size: 12px;
+  border-radius: 5px;
+  line-height: 18px;
+  background-color: transparent;
+  border:2px solid #000000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+#send {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#F1D6D1;
+  border-radius:50px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:300;
+}
+#send:hover { 
+	background:#BD5742; 
+}
+
+.feedback-input:focus { 
+	border:2px solid #D3ACA4; 
+		border-radius:50px;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+
+}
 
 /* nav bar custom*/
 .navbar-default{
@@ -125,4 +175,14 @@ h2{
 
 hr{
 	border-width: medium;
+}
+
+.contact_text{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:16px;
+}
+
+.shape_groupimg{
+	height: 504px;
+	width: 751px;
 }
