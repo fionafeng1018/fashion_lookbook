@@ -115,7 +115,7 @@ video{
 }
 
 .mainpage_desc{
-	font-size:20px;
+	font-size:26px;
 	font-family: 'poiret-one';
 	text-align: center;
 }
@@ -185,4 +185,21 @@ hr{
 .shape_groupimg{
 	height: 504px;
 	width: 751px;
+}
+
+.back_to_top{
+	font-size:26px;
+}
+
+.shape_desc{
+	font-size: 24px;
+	color: #9D3739;
+}
+
+.main_arrow{
+	
+	font-size:42px;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	color: #8F6C4A;
 }
